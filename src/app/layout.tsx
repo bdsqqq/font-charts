@@ -6,10 +6,12 @@ const inter = Inter({ subsets: ["latin"] });
 const wavefont = Wavefont({
   variable: "--font-wavefont",
   axes: ["ROND", "YELA"],
+  display: "block",
 });
 const linefont = Linefont({
   variable: "--font-linefont",
   axes: ["wdth"],
+  display: "block",
 });
 
 export const metadata: Metadata = {
